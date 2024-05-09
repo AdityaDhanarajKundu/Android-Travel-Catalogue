@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Travel Catalogue</string>
+    <string name="up">Uttar Pradesh</string>
+    <string name="wb">West Bengal</string>
+    <string name="delhi">Delhi</string>
+    <string name="mp">Madhya Pradesh</string>
+    <string name="taj">Taj Mahal</string>
+    <string name="howrah">Howrah Bridge</string>
+    <string name="gate">India Gate</string>
+    <string name="sanchi">Sanchi Stupa</string>
 </resources>
