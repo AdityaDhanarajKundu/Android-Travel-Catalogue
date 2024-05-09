@@ -1,0 +1,53 @@
+package com.example.travelcatalogue
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import com.example.travelcatalogue.ui.theme.TravelCatalogueTheme
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            TravelCatalogueTheme {
+                // A surface container using the 'background' color from the theme
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun TravelScreen(modifier: Modifier = Modifier){
+
+}
+
+@Composable
+fun TravelImage(modifier: Modifier = Modifier){
+
+}
+
+@Composable
+fun TravelTitle(){
+
+}
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    TravelCatalogueTheme {
+
+    }
+}
